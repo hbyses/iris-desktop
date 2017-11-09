@@ -1,19 +1,59 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using Node.js <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+</head>
 
+<body>
+    <h2><strong>IRIS</strong> - Unit Management System</h2>
+    <!--Action boxes-->
+    <div class="quick-actions_homepage">
+        <ul class="quick-actions">
+            <li class="bg_lg span3">
+                <a href="/equipment"> <i class="glyphicon glyphicon-wrench"></i> Equipment</a>
+            </li>
+            <li class="bg_ly span3">
+                <a href="/issues"> <i class="glyphicon glyphicon-tag"></i> Issues </a>
+            </li>
+            <li class="bg_lo span3">
+                <a href="/vehicles"> <i class="glyphicon glyphicon-road"></i> Fleet</a>
+            </li>
+            <li class="bg_ls span3">
+                <a href="/loans"> <i class="glyphicon glyphicon-tags"></i> Q Store</a>
+            </li>
+            <li class="bg_lo span3">
+                <a href="/members"> <i class="glyphicon glyphicon-user"></i> Members</a>
+            </li>
+            <li class="bg_ls span3">
+                <a href="/suppliers"> <i class="glyphicon glyphicon-cog"></i> Suppliers</a>
+            </li>
+            <li class="bg_lb span3">
+                <a href="/locations"> <i class="glyphicon glyphicon-picture"></i> Locations</a>
+            </li>
+            <li class="bg_lg span3">
+                <a href="/dashboards"> <i class="glyphicon glyphicon-stats"></i> Dashboards</a>
+            </li>
+            <li class="bg_lr span3">
+                <a href="/reports"> <i class="glyphicon glyphicon-duplicate"></i> Reports</a>
+            </li>
+        </ul>
+    </div>
+    <p>Node.js
+        <script>
+            document.write(process.versions.node)
+        </script>, Chromium
+        <script>
+            document.write(process.versions.chrome)
+        </script>, Electron
+        <script>
+            document.write(process.versions.electron)
+        </script>.</p>
     <script>
-      // You can also require other files to run in this process
-      require('./renderer.js')
+        // You can also require other files to run in this process
+        require('./renderer.js')
     </script>
-  </body>
+</body>
+
 </html>
