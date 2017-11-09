@@ -16,9 +16,6 @@
     <link rel="stylesheet" type="text/css" href="/web_assets/css/sidebar-style.css" />
     <link rel="stylesheet" type="text/css" href="/web_assets/css/style.css" />
 
-    <!-- JQuery / UI -->
-    <script type="text/javascript" src="<?php echo base_url(); ?>vendor/components/jquery/jquery.js"></script>
-
     <!-- Typekit -->
     <script src="https://use.typekit.net/kde8jqk.js"></script>
     <script>
@@ -77,6 +74,11 @@
     <script>
         // You can also require other files to run in this process
         require('./renderer.js')
+        require('/web_assets/js/bootstrap-3.3.7.js')
+        require('/web_assets/js/jquery-ui-1.12.1.min.js')
+    </script>
+    <script>
+        window.$ = window.jQuery = require('/web_assets/js/jquery-3.2.1.min.js');
     </script>
 </body>
 
