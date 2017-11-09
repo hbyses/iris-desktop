@@ -1,118 +1,165 @@
+#page-wrap {
+    width: 800px;
+    margin: 0 auto;
+}
+
 h2 {
     letter-spacing: 2px !important;
     text-transform: uppercase;
-    font-family: "proxima-nova",sans-serif;
+    font-family: "proxima-nova", sans-serif;
 }
 
 h1 {
-    font-family: "proxima-nova",sans-serif;
+    font-family: "proxima-nova", sans-serif;
 }
 
 h3 {
     letter-spacing: 1px !important;
     text-transform: uppercase;
-    font-family: "proxima-nova",sans-serif;
+    font-family: "proxima-nova", sans-serif;
 }
 
 h4 {
-    font-family: "proxima-nova",sans-serif;
+    font-family: "proxima-nova", sans-serif;
 }
 
-.page-title{
-	text-transform: uppercase;
+.page-title {
+    text-transform: uppercase;
 }
 
 .calendar {
-	font-family: Arial, Verdana, Sans-serif;
-	width: 100%;
-	min-width: 960px;
-	border-collapse: collapse;
+    font-family: Arial, Verdana, Sans-serif;
+    width: 100%;
+    min-width: 960px;
+    border-collapse: collapse;
 }
 
 .calendar tbody tr:first-child th {
-	color: #505050;
-	margin: 0 0 10px 0;
+    color: #505050;
+    margin: 0 0 10px 0;
 }
 
 .day_header {
-	font-weight: normal;
-	text-align: center;
-	color: #757575;
-	font-size: 10px;
+    font-weight: normal;
+    text-align: center;
+    color: #757575;
+    font-size: 10px;
 }
 
 .calendar td {
-	width: 14%; /* Force all cells to be about the same width regardless of content */
-	border:1px solid #CCC;
-	height: 100px;
-	vertical-align: top;
-	font-size: 10px;
-	padding: 0;
+    width: 14%;
+    /* Force all cells to be about the same width regardless of content */
+    border: 1px solid #CCC;
+    height: 100px;
+    vertical-align: top;
+    font-size: 10px;
+    padding: 0;
 }
 
 .calendar td:hover {
-	background: #F3F3F3;
+    background: #F3F3F3;
 }
 
 .day_listing {
-	display: block;
-	text-align: right;
-	font-size: 12px;
-	color: #2C2C2C;
-	padding: 5px 5px 0 0;
+    display: block;
+    text-align: right;
+    font-size: 12px;
+    color: #2C2C2C;
+    padding: 5px 5px 0 0;
 }
 
 div.today {
-	background: #E9EFF7;
-	height: 100%;
+    background: #E9EFF7;
+    height: 100%;
 }
 
 .ui-autocomplete {
-	max-height: 100px;
-	overflow-y: auto;
-	/* prevent horizontal scrollbar */
-	overflow-x: hidden;
+    max-height: 100px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
 }
 
-	/* IE 6 doesn't support max-height
+
+/* IE 6 doesn't support max-height
 	* we use height instead, but this forces the menu to always be this tall
 	*/
+
 * html .ui-autocomplete {
-	height: 100px;
+    height: 100px;
 }
 
+
 /* overriding bootstrap style. For some reason calendar prompts were too wide */
+
 .col-sm-10.input-group.date {
     padding-left: 15px;
     padding-right: 15px;
 }
 
 table#content.logiTable td {
-	vertical-align: middle;
+    vertical-align: middle;
 }
+
 
 /*css for the boxes on the home page */
+
+
 /*Metro Background color class*/
-.bg_lb{ background:#27a9e3;}
-.bg_db{ background:#2295c9;}
-.bg_lg{ background:#28b779;}
-.bg_dg{ background:#28b779;}
-.bg_ly{ background:#ffb848;}
-.bg_dy{ background:#da9628;}
-.bg_ls{ background:#2255a4;}
-.bg_lo{ background:#da542e;}
-.bg_lr{ background:#f74d4d;}
-.bg_lv{ background:#603bbc;}
-.bg_lh{ background:#b6b3b3;}
+
+.bg_lb {
+    background: #27a9e3;
+}
+
+.bg_db {
+    background: #2295c9;
+}
+
+.bg_lg {
+    background: #28b779;
+}
+
+.bg_dg {
+    background: #28b779;
+}
+
+.bg_ly {
+    background: #ffb848;
+}
+
+.bg_dy {
+    background: #da9628;
+}
+
+.bg_ls {
+    background: #2255a4;
+}
+
+.bg_lo {
+    background: #da542e;
+}
+
+.bg_lr {
+    background: #f74d4d;
+}
+
+.bg_lv {
+    background: #603bbc;
+}
+
+.bg_lh {
+    background: #b6b3b3;
+}
 
 .quick-actions_homepage {
-    width:100%;
-    text-align:center;
-    position:relative;
-    float:left;
-    margin-top:10px;
-    margin-left:-40px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    margin-left: -40px;
 }
+
 .quick-actions,
 .quick-actions-horizontal {
     display: block;
@@ -120,17 +167,18 @@ table#content.logiTable td {
     margin: 15px 0;
     text-align: center;
 }
-.quick-actions_homepage
-.quick-actions li {
-    position:relative;
+
+.quick-actions_homepage .quick-actions li {
+    position: relative;
 }
-.quick-actions_homepage
-.quick-actions li .label{
-    position:absolute;
-    padding:5px;
-    top:-10px;
-    right:-5px;
+
+.quick-actions_homepage .quick-actions li .label {
+    position: absolute;
+    padding: 5px;
+    top: -10px;
+    right: -5px;
 }
+
 .quick-actions li,
 .quick-actions-horizontal li {
     float: left;
@@ -138,6 +186,7 @@ table#content.logiTable td {
     margin: 0 10px 10px 0px;
     padding: 0 10px;
 }
+
 .quick-actions li,
 .quick-actions-horizontal li {
     padding: 0;
@@ -150,42 +199,44 @@ table#content.logiTable td {
     background: #2E363F;
     text-decoration: none;
 }
+
 .quick-actions li {
-    min-width:14%;
-    min-height:100px;
+    min-width: 14%;
+    min-height: 100px;
 }
 
 .quick-actions li a {
-    padding:15px 30px;
+    padding: 15px 30px;
     text-decoration: none;
 }
 
-.quick-actions_homepage
-.quick-actions
-.span3 {
-    width:30%;
+.quick-actions_homepage .quick-actions .span3 {
+    width: 30%;
 }
 
 .quick-actions-horizontal li a span {
     padding: 10px 12px 10px 10px;
     display: inline-block;
 }
+
 .quick-actions li a,
 .quick-actions-horizontal li a {
     display: block;
     color: #fff;
-    font-size:18px;
+    font-size: 18px;
     letter-spacing: 2px;
     text-transform: uppercase;
     line-height: 2;
-    font-weight:lighter;
+    font-weight: lighter;
 }
+
 .quick-actions li a i[class^="glyphicon-"],
 .quick-actions li a i[class*=" glyphicon-"] {
-    font-size:30px;
+    font-size: 30px;
     display: block;
     margin: 0 auto 5px;
 }
+
 .quick-actions-horizontal li a i[class^="glyphicon-"],
 .quick-actions-horizontal li a i[class*=" glyphicon-"] {
     background-repeat: no-repeat;
@@ -210,5 +261,5 @@ table#content.logiTable td {
     background-image: -ms-linear-gradient(top, #EEEEEE 0%, #F4F4F4 100%);
     background-image: -o-linear-gradient(top, #EEEEEE 0%, #F4F4F4 100%);
     background-image: linear-gradient(top, #EEEEEE 0%, #F4F4F4 100%);
-    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2) inset, 0 1px 0 rgba(255,255,255,0.4);
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2) inset, 0 1px 0 rgba(255, 255, 255, 0.4);
 }
